@@ -1,0 +1,36 @@
+body{
+  background-color: #f3f4f5;
+}
+.round{
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+  height: 40px;
+  width: 18rem;
+}
+.round-button{
+  background-color: black;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  height: 40px;
+}
+
+.search-container{
+  position: relative;
+}
+.search-icon{
+  position: absolute;
+}
+
+@media (min-width:1020px) {
+  .col-lg-4{
+    width: 32.33% !important;
+  } 
+}
+
+@media (min-width:420px) and (max-width:990px) {
+  .col-md-4{
+    width: 31.333% !important;
+  } 
+}
